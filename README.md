@@ -7,7 +7,7 @@ This project contains simple method and action which will provide the package na
 ## Project Details
 
 Screenshot:
-![Example Application Screenshot](./Screenshots/ShowPackageName.png)
+![Example Application Screenshot](./Screenshots/ShowPackageName.PNG)
 
 #### Built Using:
 Aras Innovator Version 11.0 SP12  Build: 6920
