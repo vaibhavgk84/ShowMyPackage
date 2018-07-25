@@ -1,0 +1,42 @@
+﻿<AML>
+ <Item type="Method" id="96F13A2419E24D8B845B7524B59A1D03" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[
+
+
+var PackageElement= this.newItem("PackageElement", "get");
+//PackageElement.setProperty("element_id", "B88C14B99EF449828C5D926E39EE8B89");
+PackageElement.setProperty("element_id", this.getProperty("id"));
+PackageElement= PackageElement.apply();
+
+if(PackageElement.getItemCount()<=0)
+{
+	alert("Item is not added to any package");
+	return;
+}
+var PackageGroup= this.newItem("PackageGroup", "get");
+//PackageGroup.setProperty("id", "35FD4F9677CC47958BF1C254214198F3");//PackageElement.SOURCE_ID
+PackageGroup.setProperty("id", PackageElement.getProperty("source_id"));
+PackageGroup= PackageGroup.apply();
+
+if(PackageGroup.getItemCount()<=0)
+{
+	alert("Item is not added to any package");
+	return;
+}
+
+var PackageDefinition= this.newItem("PackageDefinition", "get");
+//PackageDefinition.setProperty("id", "352E27A297F74060B76CD02965377DF7");//PackageGroup.SOURCE_ID
+PackageDefinition.setProperty("id", PackageGroup.getProperty("source_id"));//PackageGroup.SOURCE_ID
+PackageDefinition= PackageDefinition.apply();
+if(PackageDefinition.getItemCount()<=0)
+{
+	alert("Item is not added to any package");
+	return;
+}
+
+alert("Package Name:  "+PackageDefinition.getProperty("name"));]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>_showPackageName</name>
+ </Item>
+</AML>

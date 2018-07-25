@@ -1,0 +1,1124 @@
+﻿<AML>
+ <Item type="ItemType" id="450906E86E304F55A34B3C0D65C097EA" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <close_icon>../images/ItemType.svg</close_icon>
+  <default_page_size>25</default_page_size>
+  <enforce_discovery>0</enforce_discovery>
+  <help_url xml:lang="en">mergedProjects/Just Ask Innovator/About_ItemTypes.htm</help_url>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>ITEMTYPE</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">ItemType</label>
+  <label_plural xml:lang="en">ItemTypes</label_plural>
+  <large_icon>../images/ItemType.svg</large_icon>
+  <open_icon>../images/ItemType.svg</open_icon>
+  <permission_id keyed_name="8D591B8ED2EB4ABC80301D8B488DC045" type="Permission">8D591B8ED2EB4ABC80301D8B488DC045</permission_id>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs on</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>ItemType</name>
+  <Relationships>
+   <Item type="Property" id="9FADE646A3CE4F21B07E80361A85841C" action="add">
+    <column_alignment>center</column_alignment>
+    <data_type>boolean</data_type>
+    <default_value xml:lang="en">1</default_value>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Allow Private Permissions</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>allow_private_permission</name>
+   </Item>
+   <Item type="Property" id="7E97C0F257C449E9BFA05E9FB353B3AC" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Auto Search</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>auto_search</name>
+   </Item>
+   <Item type="Property" id="9E840C68EB744D9EABB69F5B2274D0E0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Cache Query</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4480</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>cache_query</name>
+   </Item>
+   <Item type="Property" id="58237D094A3A4C80ABAD05CF14BD6E3C" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>80</column_width>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Class Structure</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>class_structure</name>
+   </Item>
+   <Item type="Property" id="BB0122E16CBC4F2ABA81F3D4940CE98F" action="add">
+    <data_type>image</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Close ICON</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>close_icon</name>
+   </Item>
+   <Item type="Property" id="A7AA09CB4BAE4D22BC5C651EB9113751" action="add">
+    <column_alignment>center</column_alignment>
+    <column_width>30</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Core</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>core</name>
+   </Item>
+   <Item type="Property" id="6A1A70EC10404FD28AB4D1892412BD71" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Default Page Size</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>default_page_size</name>
+   </Item>
+   <Item type="Property" id="5CA61A5DA7F2481C8D2CDED52D89A2A1" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Description</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4608</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>description</name>
+   </Item>
+   <Item type="Property" id="012EF0F69BA247E8A27A3180B663DFBA" action="add">
+    <column_alignment>center</column_alignment>
+    <data_type>boolean</data_type>
+    <default_value xml:lang="en">1</default_value>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Enforce Discovery</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5504</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>enforce_discovery</name>
+   </Item>
+   <Item type="Property" id="8E96E2BD18574A71AB61D9D705675B42" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Help" type="ItemType" name="Help">1718DC9FB25043B9A3F0B76DB5DC6637</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Help Item</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4864</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>help_item</name>
+   </Item>
+   <Item type="Property" id="2BFA342998234BE68F05658C0F97810A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>ml_string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Help Url</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4736</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>80</stored_length>
+    <track_history>0</track_history>
+    <name>help_url</name>
+   </Item>
+   <Item type="Property" id="278AC00530A041659CBDD38A9A870278" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Hide Where Used</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>hide_where_used</name>
+   </Item>
+   <Item type="Property" id="887479FE433E477180C1980F7D770E4D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="History Template" type="ItemType" name="History Template">BA053C68D62E4E5293039323F10E116E</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">History Template</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5632</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>history_template</name>
+   </Item>
+   <Item type="Property" id="E5A5D63973F347EDBD3C5FCBC5B60FCB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Definition</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5120</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>implementation_ddl</name>
+   </Item>
+   <Item type="Property" id="FFCC08A2B8414B61B341D45C08D584E6" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="ItemType Implementation">B65DA95B86694210BBD6490C894C0DA0</data_source>
+    <data_type>list</data_type>
+    <default_value xml:lang="en">table</default_value>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Implementation Type</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4992</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>64</stored_length>
+    <track_history>0</track_history>
+    <name>implementation_type</name>
+   </Item>
+   <Item type="Property" id="2E61832AC6D34572850820214FACD63B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Instance Data</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4992</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>30</stored_length>
+    <track_history>0</track_history>
+    <name>instance_data</name>
+   </Item>
+   <Item type="Property" id="36A38D6C967B4466928EA5A448D11078" action="add">
+    <column_alignment>center</column_alignment>
+    <column_width>70</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Dependent</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>is_dependent</name>
+   </Item>
+   <Item type="Property" id="9A0DD1C729774CA4AACFA801CEC27DFF" action="add">
+    <column_alignment>center</column_alignment>
+    <column_width>70</column_width>
+    <data_type>boolean</data_type>
+    <default_value xml:lang="en">0</default_value>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Relationship</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>is_relationship</name>
+   </Item>
+   <Item type="Property" id="740A099AFA114E02883507C722D17B96" action="add">
+    <column_alignment>center</column_alignment>
+    <column_width>70</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Versionable</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>is_versionable</name>
+   </Item>
+   <Item type="Property" id="0BA22684A1F14DAAA755BD7BAFC88A3A" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_type>ml_string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Singular Label</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>64</stored_length>
+    <track_history>0</track_history>
+    <name>label</name>
+   </Item>
+   <Item type="Property" id="02AE4DCAAC1844CEA2D518F5DD00D1A3" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_type>ml_string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Plural Label</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>64</stored_length>
+    <track_history>0</track_history>
+    <name>label_plural</name>
+   </Item>
+   <Item type="Property" id="FC43988DC8754B3BB36D42E258863E23" action="add">
+    <data_type>image</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Large ICON</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>large_icon</name>
+   </Item>
+   <Item type="Property" id="A3396B43A281409CB959453A0B6AC2D8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Versioning Discipline">4E97FCDBFBD44F088942AB2D7D8374A5</data_source>
+    <data_type>filter list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Manual Versioning</label>
+    <pattern>is_relationship</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>64</stored_length>
+    <track_history>0</track_history>
+    <name>manual_versioning</name>
+   </Item>
+   <Item type="Property" id="32B93BA75DD34F9D8FA212D56B416293" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">MaxRecords</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>maxrecords</name>
+   </Item>
+   <Item type="Property" id="0ECB1D70F9C9405B8ABC7FBFC88CA728" action="add">
+    <data_type>image</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Small Icon</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>open_icon</name>
+   </Item>
+   <Item type="Property" id="3A42BE2AFEC44C60959FA61ACEFA67D1" action="add">
+    <data_source keyed_name="Revision" type="ItemType" name="Revision">F81CDEF9FE324D01947CC9023BC38317</data_source>
+    <data_type>item</data_type>
+    <default_value xml:lang="en">7FE395DD8B9F4E1090756A34B733D75E</default_value>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Revisions</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>revisions</name>
+   </Item>
+   <Item type="Property" id="BB1AA963684B452781F113C975D426F5" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Parameters Tab Visibility">6C3C058838E74570BB70F674A8FF783F</data_source>
+    <data_type>list</data_type>
+    <default_value xml:lang="en">1</default_value>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Show Parameters Tab</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5376</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>64</stored_length>
+    <track_history>0</track_history>
+    <name>show_parameters_tab</name>
+   </Item>
+   <Item type="Property" id="743104CE935C4D57884B5C92A6E3FF07" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_source keyed_name="Structure Views">CE57501B59BE4E3F81DF06E466C20F7A</data_source>
+    <data_type>list</data_type>
+    <default_value xml:lang="en">tabs off</default_value>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <label xml:lang="en">Default Sructure View</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>64</stored_length>
+    <track_history>0</track_history>
+    <name>structure_view</name>
+   </Item>
+   <Item type="Property" id="819523FD2D0C4C0288CC47C584FC175E" action="add">
+    <column_alignment>center</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Unlock On Logout</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>unlock_on_logout</name>
+   </Item>
+   <Item type="Property" id="28615B00D7AF452CB2BEC67FEF243EC1" action="add">
+    <column_alignment>center</column_alignment>
+    <column_width>80</column_width>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Use Src Access</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>use_src_access</name>
+   </Item>
+   <Item type="View" id="88BF85E58E59486E82D044EF8D2A47E1" action="add">
+    <client>js</client>
+    <related_id keyed_name="ItemType" type="Form">47B8630E2B4C40C1B23C6EE9962F7681</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="Server Event" id="5ED5A4F0ED034EBDAF5BB89194DC1785" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="Create Form for ItemType" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>Create Form for ItemType</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterAdd</server_event>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="E953872B778C42E18A34996317FBEDD0" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="itemtype_onafter_polymorphic" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>itemtype_onafter_polymorphic</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterAdd</server_event>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="D55FBD51EEA248C983283C6985CB669F" action="add">
+    <event_version>version_1</event_version>
+    <is_required>1</is_required>
+    <related_id keyed_name="VC_OnAfterCopySSVCItem" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>VC_OnAfterCopySSVCItem</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterCopy</server_event>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="374D20506978425AB3B1CD77458AC9F6" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="itemtype_onafterdel_polymorphic" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>itemtype_onafterdel_polymorphic</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterDelete</server_event>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="00141396977D4EBCA6C643CF32DA6664" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="itemtype_onafter_polymorphic" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>itemtype_onafter_polymorphic</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterUpdate</server_event>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="D842797B793E440DA24D6354CC0C6B71" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="itemtype_onbeforeadd_polymorphic" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>itemtype_onbeforeadd_polymorphic</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeAdd</server_event>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="DD7036A6659C4727B94CB429DF047C50" action="add">
+    <event_version>version_1</event_version>
+    <is_required>1</is_required>
+    <related_id keyed_name="VC_ValidatePossibilityToCreateDT" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>VC_ValidatePossibilityToCreateDT</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeAdd</server_event>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="35F5D7B7F9A94835BB0A009E3B020E60" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="itemtype_onbeforedel_polymorphic" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>itemtype_onbeforedel_polymorphic</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeDelete</server_event>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="C7C12535CB85455BA021B2EE7F9F6A30" action="add">
+    <event_version>version_1</event_version>
+    <is_required>1</is_required>
+    <related_id keyed_name="VC_DeleteItemFromSSVCItems" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>VC_DeleteItemFromSSVCItems</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeDelete</server_event>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="26A574A5F4594267A8D6523591ED81BC" action="add">
+    <event_version>version_1</event_version>
+    <is_required>1</is_required>
+    <related_id keyed_name="RemoveITFromFileContainerItems" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>RemoveITFromFileContainerItems</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeDelete</server_event>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="B4C72360580440CE8BC57C1514355F82" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="itemtype_onbeforupdt_polymorphic" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>itemtype_onbeforupdt_polymorphic</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeUpdate</server_event>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Server Event" id="12B510D618184DA38ADE03D65F332CEE" action="add">
+    <event_version>version_1</event_version>
+    <is_required>1</is_required>
+    <related_id keyed_name="VC_ValidatePossibilityToCreateDT" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>VC_ValidatePossibilityToCreateDT</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeUpdate</server_event>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Item Action" id="1B439A2A87F04C1ABA1A37260E8308F5" action="add">
+    <related_id keyed_name="_showMyPackage" type="Action">B3767A6FEBD348079AC4B0E67C4155CB</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="TOC Access" id="7519094A7BB646A2B195A2A069B64AFE" action="add">
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <category>Administration</category>
+   </Item>
+   <Item type="Can Add" id="B20185841BDD4EE3BD7CDFD764C45350" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="6CC41A05B9814CC3BBC601793DC0201A" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="ItemType" type="Permission">102D29B8CD9948BFB5F558341DF4C0F9</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Item Report" id="128C30A645F04E5380F8B4709A3BD1A1" action="add">
+    <related_id keyed_name="ItemType Definition Report" type="Report">FBBA9CBBABDA492CB3333544A598C57A</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Item Report" id="483BA9380E844935B103A368C82870E0" action="add">
+    <related_id keyed_name="ItemType Permissions Report" type="Report">2D3FFE2E01494679AAB6095A2702C774</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+   <Item type="Item Report" id="DD87681430274ACE9717BFEC3C423BDF" action="add">
+    <related_id keyed_name="ItemType History Configuration" type="Report">DBAA17478EDE4AD59F1D1ECDE1906D00</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="450906E86E304F55A34B3C0D65C097EA" action="edit">
+  <Relationships>
+   <Item type="Property" id="BB1C82A2F06C4F20A50B7D278B47EE79" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>120</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>1</is_indexed>
+    <is_keyed>1</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <keyed_name_order>0</keyed_name_order>
+    <label xml:lang="en">Name</label>
+    <order_by>0</order_by>
+    <pattern>^[a-zA-Z](\w*| +\w+)*$</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>0</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>30</stored_length>
+    <track_history>0</track_history>
+    <name>name</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='config_id'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Config_id</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2688</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>config_id</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='created_by_id'">
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Created By</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>created_by_id</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='created_on'">
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <label xml:lang="en">Created On</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>created_on</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='css'">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">CSS</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>css</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='current_state'">
+    <data_source keyed_name="Life Cycle State" type="ItemType" name="Life Cycle State">5EFB53D35BAE468B851CD388BEA46B30</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Current State</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>current_state</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='generation'">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Generation</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>generation</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='id'">
+    <data_source keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Item ID</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>id</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='is_current'">
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Current</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>is_current</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='keyed_name'">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>1</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Keyed Name</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>128</stored_length>
+    <track_history>0</track_history>
+    <name>keyed_name</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='locked_by_id'">
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Locked By</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>locked_by_id</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='major_rev'">
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Major Rev</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>major_rev</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='managed_by_id'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Managed_by_id</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>managed_by_id</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='minor_rev'">
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Minor Rev</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>minor_rev</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='modified_by_id'">
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Modified By</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>modified_by_id</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='modified_on'">
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Modified On</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>modified_on</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='new_version'">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">New_version</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4352</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>new_version</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='owned_by_id'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Owned_by_id</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>owned_by_id</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='permission_id'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Permission" type="ItemType" name="Permission">C6A89FDE1294451497801DF78341B473</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Permission id</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4224</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <track_history>0</track_history>
+    <name>permission_id</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='450906E86E304F55A34B3C0D65C097EA' and name='state'">
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">State</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>99</sort_order>
+    <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>state</name>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

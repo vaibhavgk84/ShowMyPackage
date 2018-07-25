@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="Action" id="B3767A6FEBD348079AC4B0E67C4155CB" action="add">
+  <item_query />
+  <label xml:lang="en">Show My Package</label>
+  <location>client</location>
+  <method keyed_name="_showPackageName" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>_showPackageName</name>
+   </Item>
+  </method>
+  <on_complete keyed_name="_none" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>_none</name>
+   </Item>
+  </on_complete>
+  <target>none</target>
+  <type>item</type>
+  <name>_showMyPackage</name>
+ </Item>
+</AML>
